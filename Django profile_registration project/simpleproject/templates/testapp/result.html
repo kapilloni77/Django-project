@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style media="screen">
+    h3{
+      color:blue;
+      text-transform: capitalize;
+      background-color:orange;
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+    }
+    .dtv{
+      border:2px solid red;
+      width:600px;
+      height:200px;
+    }
+    .nav{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+    }
+    #hf{
+      text-decoration:none;
+      border:2px solid red;
+      color:white;
+      padding:3px;
+      margin-left:20px;
+      background-color:blue;
+      font-family: "Roboto", sans-serif;
+    }
+    body{
+      font-family: "Roboto", sans-serif;
+      background-color:#ffb3b3;
+    }
+    a{
+      color:white;
+      padding:4px 7px 8px 7px;
+      background-color:blue;
+      text-decoration:none;
+      border-radius:5px;
+      font-family: "Roboto", sans-serif;
+    }
+  </style>
+  <body>
+    <div class="nav">
+    <div class="dtv">
+<h3>Your data submitted succefully please confirm once</h3>
+<ul type="none">
+  <li>Name          : {{name}}</li>
+  <li>Age           : {{age}}</li>
+  <li>Qualification : {{qualification}}</li>
+  <li>Address       : {{address}}</li>
+  <li>Mobile_number : {{mob}}</li>
+  <li>Gender        : {{gender}}</li>
+  <li>Email         : {{email}}</li>
+</ul>
+<br>
+<br>
+<a href="/" id="hf">Home Page</a>
+</div>
+</div>
+  </body>
+</html>
